@@ -1,6 +1,6 @@
 h2 {
 
-    color: blue;
+    color: orange;
     font-weight: bolder;
 }
 .main-heading {
@@ -14,15 +14,25 @@ h2 {
 h3 {
     color: slategray;
     font-weight: bolder;
+
+
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: palevioletred;
+    font-style: normal;
+    font-size: larger;
+    background-image: url();
 }
 
 .intro {
+    float: right;
     display: inline-block;
-
 }
 
+.form-group {
+    background-image: url(images.jpg);
 
-.modify {
-    background: url("bg.jpg");
-
+    margin-left: 20%;
 }
