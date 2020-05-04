@@ -9,12 +9,12 @@
                 
     </head>
     <body>
-        <div class="container">
+        <div class="container modify">
             <div class="row">
-                <div class="col-md-4 col-xs-12 col-lg-6"</div>
-                    <div class="bg">
-                        <img src="images/bg.jpg" alt="">
-                    <h1>Akan Names</h1>
+                <div class="col-md-4">
+                    
+                        
+                    <h1 class="main-heading">Akan <span class="heading-name"> Names </span></h1>
                     <p>web application that takes a user's birthday and calculates the day of the week 
                         they were born and then depending on their gender outputs their Akan Name. </p>
                     <p> Here are Ghanian day names.</p>
@@ -33,7 +33,9 @@
 
 
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 intro">
+                        
+                    
                         <h3>Females</h3>
                         <ul>
                             <li>Sunday: Akosua</li>
@@ -44,6 +46,7 @@
 							<li>Friday: Afua</li>
 							<li>Saturday: Ama</li>
                         </ul>
+                        
                     </div>
                 </div>
             </div>
@@ -51,20 +54,32 @@
 
         <h4>Enter Your Birthday Here : </h4>
         <form>
-            <div class="form-group row">
-                <label class="label-control ">Enter your date of birth:</label>
-                <input class="form-control form-control-sm col-md-6" type="date" id="birthdate" value="" placeholder="Enter your dateofbirth"><br/>    
-
-            </div> 
-               <select>
-                   <option value="1">choose ..</option>
-                   <option value="2">male</option>
-                   <option value="3">female</option>
-               </select>
+            
               
                         
 
+            <div class="form-group row">
+                <label class="label-control ">Enter your date of birth:</label>
+                <input class="form-control form-control-sm col-md-6" type="date" id="birthdate" value="" placeholder="Enter your dateofbirth"><br/>    
+          </div>                       
+     
+            <div class="form-group row">
+                <label>Choose your gender:</label>
+                <select id="gender" class="form-control form-control-sm">
+                    <option>Choose your gender</option>
+                    <option>Male</option>
+                    <option>Female</option><br>
+                </select>
+            </div>  
+            <div class="row2">
             
+                <button type="button" class="btn btn-success btn-sm" value="submit" onclick="akanNames()">submit</button>
+            
+            </div>
+                <!-- Result output -->
+        
+                <p id="display" class="col-md-12"></p>
+
 
      
 

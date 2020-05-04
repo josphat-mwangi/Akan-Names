@@ -1,13 +1,28 @@
 h2 {
 
     color: blue;
+    font-weight: bolder;
+}
+.main-heading {
+    color: seagreen;
+    font-style: italic;
+}
+.heading-name {
+    color: royalblue;
+    font-family: fantasy;
+}
+h3 {
+    color: slategray;
+    font-weight: bolder;
 }
 
-.bg{
+.intro {
+    display: inline-block;
 
-    background: url("images/bg.jpg") rgba(red, green, blue, alpha);
-    background-size: cover ;
-    width: 100%;
-    height: 100%;
+}
+
+
+.modify {
+    background: url("bg.jpg");
 
 }
