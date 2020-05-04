@@ -20,19 +20,23 @@ h3 {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: palevioletred;
+    background-color: silver;
     font-style: normal;
     font-size: larger;
     background-image: url();
 }
 
 .intro {
-    float: right;
+    background-color: red;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
     display: inline-block;
 }
 
 .form-group {
-    background-image: url(images.jpg);
+    background-color: red;
 
     margin-left: 20%;
 }
