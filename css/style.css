@@ -1,6 +1,6 @@
 h2 {
 
-    color: orange;
+    color:;
     font-weight: bolder;
 }
 .main-heading {
@@ -19,15 +19,16 @@ h3 {
 }
 
 body {
+    background-image: url(images/images.jpg);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: silver;
+    background-color: navajowhite;
     font-style: normal;
     font-size: larger;
     background-image: url();
 }
 
 .intro {
-    background-color: red;
+    
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -36,7 +37,14 @@ body {
 }
 
 .form-group {
-    background-color: red;
+    
 
+    margin-left: 20%;
+}
+.header {
+    margin-left: 20%;
+    font-family: sans-serif;
+}
+.btn {
     margin-left: 20%;
 }
