@@ -46,3 +46,6 @@ body {
   color: brown;
   font-size: x-large;
 }
+.main-heading {
+  text-align: center;
+}
