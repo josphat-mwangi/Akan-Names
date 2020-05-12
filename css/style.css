@@ -1,50 +1,48 @@
 h2 {
-
-
-    font-weight: bolder;
+  font-weight: bolder;
 }
 .main-heading {
-    color: seagreen;
-    font-style: italic;
+  color: seagreen;
+  font-style: italic;
 }
 .heading-name {
-    color: royalblue;
-    font-family: fantasy;
+  color: royalblue;
+  font-family: fantasy;
 }
 h3 {
-    color: slategray;
-    font-weight: bolder;
-
-
+  color: slategray;
+  font-weight: bolder;
 }
 
 body {
-    background-image: url(images/images.jpg);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: navajowhite;
-    font-style: normal;
-    font-size: larger;
-    background-image: url();
+  background-image: url("../images/download.jpg");
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .intro {
-    
-    font-style: italic;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+  color: yellow;
 
-    
-    display: inline-block;
+  display: inline-block;
 }
 
 .form-group {
-    
-
-    margin-left: 20%;
+  margin-left: 20%;
 }
 .header {
-    margin-left: 20%;
-    font-family: sans-serif;
+  margin-left: 20%;
+  font-family: sans-serif;
 }
 .btn {
-    margin-left: 20%;
+  margin-left: 20%;
+}
+.header {
+  color: brown;
+}
+.gender {
+  color: brown;
+  font-size: x-large;
 }

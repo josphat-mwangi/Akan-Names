@@ -29,7 +29,11 @@ OUTPUT: "Clears and Resets the Form"
 
 
 
+<<<<<<< HEAD
 # setup installation and instruction
+=======
+## Setup Instructions and Installation
+>>>>>>> ef522bf5e208611a7ad917a1cafa6675db80e98b
 
 Clone this repository to a location in your file system. git clone https://github.com/josphat-mwangi/Akan-Names.git
 Open terminal command line then navigate to the root folder of the application. cd Akan-Names
